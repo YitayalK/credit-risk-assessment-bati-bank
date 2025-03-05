@@ -15,31 +15,6 @@ Bati Bank is partnering with an eCommerce platform to offer a credit-based payme
 - **Model Development:** Use ML models (e.g., Logistic Regression, Random Forest, GBM) to estimate risk probabilities and assign credit scores.
 - **API Deployment:** Serve the model predictions in real time using a REST API.
 
-## Repository Structure
-
-```plaintext
-Credit-Risk-Analysis/
-├── README.md
-├── data/
-│   ├── train.csv            # Training dataset with transaction details
-│   └── test.csv             # Test dataset with similar structure
-├── notebooks/
-│   ├── EDA.ipynb            # Notebook for Exploratory Data Analysis
-│   └── Feature_Engineering_Modeling.ipynb  # Notebook for feature engineering, model training, and evaluation
-├── src/
-│   ├── __init__.py
-│   ├── data_preprocessing.py  # Data loading and cleaning functions
-│   ├── feature_engineering.py # Functions to create new features and perform encoding/scaling
-│   ├── model_training.py      # Scripts for model training and hyperparameter tuning
-│   ├── model_evaluation.py    # Functions to evaluate and compare model performance
-│   └── utils.py               # Helper functions (e.g., logging, plotting)
-├── models/
-│   └── credit_risk_model.pkl  # Serialized trained model
-├── api/
-│   ├── app.py                 # Flask REST API to serve predictions
-│   ├── requirements.txt       # API-specific dependencies
-│   └── Dockerfile             # (Optional) Docker configuration for container deployment
-└── requirements.txt           # Project-level Python dependencies
 ```
 
 ## Getting Started
